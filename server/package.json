@@ -1,0 +1,14 @@
+{
+  "name": "unity-webgl-multiplayer",
+  "author": "valia fetisov",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "nodemon app.js",
+  },
+  "dependencies": {
+    "ws": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
