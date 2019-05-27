@@ -13,6 +13,11 @@ Main code can be found at [`node/app.js`](node/app.js) (node.js server), [`unity
 2. Open `unity` folder as Unity project and run the game `CMD+P`
 
 
+### Developing
+
+If you're willing to develop server code farther, you may find useful to use `npm run dev` instead of `npm start` as it will start script with `nodemon` – a monitoring tool that will restart server after every edit.
+
+
 ### Credits
 
 - [Web Sockets Plugin](https://www.assetstore.unity3d.com/en/#!/content/38367) by Unity Technologies
