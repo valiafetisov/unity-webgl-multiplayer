@@ -20,4 +20,4 @@ If you're willing to develop server code farther, you may find useful to use `np
 
 ### Credits
 
-- [Web Sockets Plugin](https://www.assetstore.unity3d.com/en/#!/content/38367) by Unity Technologies
+- Simple Web Sockets Plugin by Unity Technologies ([no longer available in the store](https://assetstore.unity.com/packages/essentials/tutorial-projects/simple-web-sockets-for-unity-webgl-38367))
