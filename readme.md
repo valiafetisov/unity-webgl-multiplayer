@@ -15,7 +15,7 @@ Main code can be found at [`node/app.js`](node/app.js) (node.js server), [`unity
 
 ### Developing
 
-If you're willing to develop server code farther, you may find useful to use `npm run dev` instead of `npm start` as it will start script with `nodemon` – a monitoring tool that will restart server after every edit.
+If you're willing to develop server code further, you may find useful to use `npm run dev` instead of `npm start` as it will start script with `nodemon` – a monitoring tool that will restart server after every edit.
 
 
 ### Credits
