@@ -8,8 +8,8 @@ var players = {}
 
 // add general WebSocket error handler
 wss.on('error', function error (error) {
-  console.error('WebSocket error', error);
-});
+  console.error('WebSocket error', error)
+})
 
 // on new client connect
 wss.on('connection', function connection (client) {
