@@ -13,6 +13,7 @@ wss.on('error', function error (error) {
 
 // on new client connect
 wss.on('connection', function connection (client) {
+  console.log('new client connected')
   // on new message recieved
   client.on('message', function incoming (data) {
     // get data from string
@@ -41,12 +42,7 @@ function broadcastUpdate () {
     // create array from the rest
     var otherPlayersPositions = otherPlayers.map(udid => players[udid])
     // send it
-    try {
-      client.send(JSON.stringify({players: otherPlayersPositions}))
-    } catch (error) {
-      // catch error in case somone disconnected after client.readyState check
-      console.error(`Can not send players to client ${client.udid}`, error)
-    }
+    client.send(JSON.stringify({players: otherPlayersPositions}))
   })
 }
 
