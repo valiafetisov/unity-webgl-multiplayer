@@ -6,8 +6,14 @@ const wss = new WebSocket.Server({port: 8000})
 // empty object to store all players
 var players = {}
 
+// add general WebSocket error handler
+wss.on('error', function error (error) {
+  console.error('WebSocket error', error)
+})
+
 // on new client connect
 wss.on('connection', function connection (client) {
+  console.log('new client connected')
   // on new message recieved
   client.on('message', function incoming (data) {
     // get data from string
