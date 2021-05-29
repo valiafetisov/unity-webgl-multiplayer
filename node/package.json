@@ -7,7 +7,7 @@
     "dev": "nodemon app.js"
   },
   "dependencies": {
-    "ws": "^7.4.5"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
